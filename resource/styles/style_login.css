@@ -1,0 +1,151 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    font-family: Helvetica, sans-serif;
+    /* background: url(../images/background_forest.jpg) no-repeat; */
+    /* background-size: 100% 100%;
+    background-attachment: fixed; */
+    font-size: 12px;
+    background-color:#e0e0e0;
+}
+
+.back_1{
+    width: 100%;
+    height: 100vh;
+    background-color: #bdbdbdde;
+    position: absolute;
+    clip-path: polygon(0 0, 0 61%, 49% 0);
+}
+.back_2{
+    width: 100%;
+    height: 100vh;
+    background-color: #757575;
+    position: absolute;
+    clip-path: polygon(0 74%, 31% 47%, 12% 100%, 0 100%);
+}
+.back_3{
+    width: 100%;
+    height: 100vh;
+    background-color: #757575ab;
+    position: absolute;
+    clip-path: polygon(74% 0, 86% 0, 100% 100%, 63% 100%);
+}
+.back_4{
+    width: 100%;
+    height: 100vh;
+    background-color: #75757586;
+    position: absolute;
+    clip-path: polygon(0 51%, 100% 0, 54% 100%, 0 100%);
+}
+.back_5{
+    width: 100%;
+    height: 100vh;
+    background-color: #bdbdbdc5;
+    position: absolute;
+    clip-path: polygon(27% 0, 64% 65%, 89% 0);
+}
+.back_6{
+    width: 100%;
+    height: 100vh;
+    background-color: #bdbdbdde;
+    position: absolute;
+    clip-path: polygon(21% 44%, 20% 100%, 81% 100%);
+}
+.back_7{
+    width: 100%;
+    height: 100vh;
+    background-color: #bdbdbdde;
+    position: absolute;
+    clip-path: polygon(100% 17%, 81% 46%, 100% 92%);
+}
+
+.c-login{
+    width: 19em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#9e9e9e ;
+    padding: 3em;
+    border-radius: 1em;
+}
+
+.c-login__text{
+    text-align: center; 
+    border-bottom: 0.1em solid black;
+    margin-bottom: 1em;
+    padding-bottom: 0.3em;
+}
+
+.c-login__item{
+    width: 100%;
+    overflow: hidden;
+    padding: 1em 0em;
+    margin: 0.5em 0em;
+    border-bottom: 0.1em solid black;
+    background-color: #757575;
+    border-radius: 0.5em;
+}
+
+.c-login__input{
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    margin: 0em 0.2em;
+    /* color: #ffffff; */
+}
+
+.c-login__button{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: 0.2em solid black;
+    /* color: #ffffff; */
+    margin: 1em 0em;
+    cursor: pointer;
+    border-radius: 1em;
+    padding: 0.3em;
+}
+
+.c-login__button:hover{
+    background-color: #757575;
+}
+
+.c-login__icon{
+    width: 2em;
+    float: left;
+    text-align: center;
+    padding-top: 0.1em;
+    font-size: 1.5em;
+}
+
+.c-login__sign-in{
+    float: right;
+    margin: 0.5em;
+}
+
+.c-login__link{
+    text-decoration: none;
+    color: black;
+    padding: 0em;
+    border-bottom: 0.2em solid black;
+    font-size: 1.2em;
+}
+
+.c-login__error{
+    clear: both;
+    float: right;
+    background-color: #fb5f55;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+.c-login__logo{
+    position: fixed;
+    top: -9.5em;
+    right: 4.3em;
+}
+

@@ -1,0 +1,24 @@
+.c-form{
+    margin-top: 1em;
+}
+
+.c-button{
+    margin-top: 1em;
+}
+
+.c-login__error{
+    clear: both;
+    float: right;
+    background-color: #fb5f55;
+    font-size: 1em;
+    margin: 0.5em 0em 0.2em 0em;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+.c-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
